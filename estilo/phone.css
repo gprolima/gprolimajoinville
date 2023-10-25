@@ -1,0 +1,86 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (max-width:450px) {
+    body,
+    html {
+        font-size: 1em;
+        margin: 0px;
+        padding: 0px;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 87%;
+    }
+    header>h1 {
+        font-size: 1.3em;
+    }
+    header img {
+        margin: auto;
+        justify-content: center;
+    }
+    nav {
+        margin-top: 20px;
+        text-align: center;
+    }
+    div#historia p {
+        text-align: justify;
+        width: 80%;
+        padding: 10px;
+    }
+    div#historia p>a {
+        text-decoration: none;
+        color: black;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+    #foto_gp {
+        width: 300px;
+    }
+    .icones {
+        width: 30px;
+    }
+    div#idgaleria {
+        text-align: center;
+        width: 94vw;
+        height: 600px;
+    }
+    div.galeria {
+        display: flex;
+    }
+    div.galeria2 {
+        display: none;
+    }
+    img.fotos {
+        width: 100px;
+        height: 100px;
+    }
+    #reportagem {
+        width: 80vw;
+        margin: auto;
+    }
+    #localizacao {
+        text-align: center;
+        width: 88vw;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+    }
+    #googlemap {
+        max-width: 250px;
+        height: 150px;
+    }
+    footer {
+        font-size: 1em;
+        justify-content: center;
+    }
+    footer a {
+        text-decoration: none;
+        color: lightgray;
+    }
+}
