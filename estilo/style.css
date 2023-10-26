@@ -138,7 +138,7 @@ div#historia a::after {
     content: '\00a0\1F517'
 }
 
-div#historia li {
+div#historia ul {
     list-style-type: none;
 }
 
