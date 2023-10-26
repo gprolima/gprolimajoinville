@@ -130,6 +130,18 @@ div#historia>p {
     margin-bottom: 20px;
 }
 
+div#historia a {
+    color: black;
+}
+
+div#historia a::after {
+    content: '\00a0\1F517'
+}
+
+div#historia ul {
+    list-style-type: none;
+}
+
 div img#foto_gp {
     max-width: 350px;
     margin: auto;
